@@ -1,0 +1,19 @@
+[Desktop Entry]
+Name=Mutter Effect
+
+Icon=preferences-system-windows-effect-fade
+Comment=Mutter effect for open/close windows on Kwin
+
+Type=Service
+X-Plasma-API=javascript
+X-Plasma-MainScript=code/main.js
+X-KDE-ServiceTypes=KWin/Effect
+X-KDE-PluginInfo-Author=x11tete11x
+X-KDE-PluginInfo-Email=11tete11@gmail.com
+X-KDE-PluginInfo-Name=kwin4_effect_mutter
+X-KDE-PluginInfo-Version=0.0.1
+X-KDE-PluginInfo-Category=Appearance
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-Ordering=60
