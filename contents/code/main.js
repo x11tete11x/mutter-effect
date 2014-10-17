@@ -12,7 +12,7 @@ var MutterEffect = {
     {
       return false;
     }
-    return window.onCurrentDesktop && !MutterEffect.isLoginWindow(window) && ! window.desktopWindow &&
+    return window.visible && window.onCurrentDesktop && !MutterEffect.isLoginWindow(window) && ! window.desktopWindow &&
     !window.utility && !window.minimized;
   },
   isLoginWindow: function(window) {
