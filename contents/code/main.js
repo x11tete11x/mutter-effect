@@ -1,6 +1,6 @@
 /*global effect, effects, animate, animationTime, Effect, QEasingCurve*/
 var MutterEffect = {
-  duration: animationTime(150),
+  duration: animationTime(250),
   isfadeWindow: function(window) {
     if (window.deleted && effect.isGrabbed(window, Effect.WindowClosedGrabRole))
     {
